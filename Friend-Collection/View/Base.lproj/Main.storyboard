@@ -38,6 +38,9 @@
                                     <constraint firstAttribute="height" constant="82" id="tHS-p3-VCf"/>
                                 </constraints>
                                 <state key="normal" title="Button" image="iconfinder_Plus_green_1891032-2"/>
+                                <connections>
+                                    <segue destination="xdK-E4-sIS" kind="presentation" identifier="toedit" modalPresentationStyle="currentContext" id="3O0-fr-g83"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -55,6 +58,16 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="944.92753623188412" y="93.75"/>
+        </scene>
+        <!--Edit-->
+        <scene sceneID="2lo-y0-YON">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Edit" id="xdK-E4-sIS" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="aVN-oM-to2"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="j5T-U7-BLO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1522" y="121"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="oQj-YA-FIW">

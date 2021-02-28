@@ -15,6 +15,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         title = "Friend Collection"
         self.navigationController?.navigationBar.barTintColor = .green
+        
+        
         tableView.delegate = self
         tableView.dataSource = self
         self.tableView.register(UINib(nibName: "TableViewCell", bundle: nil), forCellReuseIdentifier: "TableViewCell")        // Do any additional setup after loading the view.

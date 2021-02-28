@@ -18,6 +18,7 @@
 		22D2BADD25EB67280088E30D /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2BADB25EB67280088E30D /* TableViewCell.swift */; };
 		22D2BADE25EB67280088E30D /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22D2BADC25EB67280088E30D /* TableViewCell.xib */; };
 		22D2BAEC25EB7FB70088E30D /* Edit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22D2BAEB25EB7FB70088E30D /* Edit.storyboard */; };
+		22D2BAF425EBAE900088E30D /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D2BAF325EBAE900088E30D /* EditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		22D2BADB25EB67280088E30D /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
 		22D2BADC25EB67280088E30D /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
 		22D2BAEB25EB7FB70088E30D /* Edit.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Edit.storyboard; sourceTree = "<group>"; };
+		22D2BAF325EBAE900088E30D /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 				22D2BAA225EB46C90088E30D /* AppDelegate.swift */,
 				22D2BAA425EB46C90088E30D /* SceneDelegate.swift */,
 				22D2BAA625EB46C90088E30D /* ViewController.swift */,
+				22D2BAF325EBAE900088E30D /* EditViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -293,6 +296,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22D2BAF425EBAE900088E30D /* EditViewController.swift in Sources */,
 				22D2BAA725EB46C90088E30D /* ViewController.swift in Sources */,
 				22D2BADD25EB67280088E30D /* TableViewCell.swift in Sources */,
 				22D2BAA325EB46C90088E30D /* AppDelegate.swift in Sources */,
