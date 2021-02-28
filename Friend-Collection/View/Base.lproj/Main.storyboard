@@ -39,7 +39,7 @@
                                 </constraints>
                                 <state key="normal" title="Button" image="iconfinder_Plus_green_1891032-2"/>
                                 <connections>
-                                    <segue destination="xdK-E4-sIS" kind="presentation" identifier="toedit" modalPresentationStyle="currentContext" id="3O0-fr-g83"/>
+                                    <segue destination="xdK-E4-sIS" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="crossDissolve" id="O7o-3A-jQl"/>
                                 </connections>
                             </button>
                         </subviews>
