@@ -32,6 +32,8 @@ extension ViewController:UITableViewDelegate,UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         if let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell") as? TableViewCell {
+            
+            cell.selectionStyle = .none
             return cell
         }
         return UITableViewCell()
